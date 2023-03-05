@@ -14,11 +14,11 @@ on:
 
 env:
   MANIFEST: rsync rsync://sources.orangefox.download/sources/fox_10.0 . --progress -a
-  DEVICE: X655C
-  DT_LINK: https://github.com/kies83/recovery_device_infinix_x655c_h6211abkg-q-op
-  DT_PATH: device/infinix/X655C
-  TARGET: recoveryimage
-  TZ: Asia/Karachi
+  DEVICE: bahamut
+  DT_LINK: https://github.com/plente00/android_device_sony_bahamut
+  DT_PATH: device/sony/bahamut
+  TARGET: bootimage
+  TZ: Asia/japan
 
 jobs:
   build:
